@@ -271,6 +271,23 @@ license:		creative commons CC-BY-NC-SA
 
 	</view>
 	
-
+	<!-- Sound -->
+	<view name="basic, detailed, grid, system">
+		<sound name="menuOpen">
+			<path>./art/back.wav</path>
+		</sound>
+		<!-- Apply on system scroll in "system" view and game list in "basic"/"detailed"/"grid" views -->
+		<sound name="scroll">
+			<path>./art/scroll.wav</path>
+		</sound>
+		<!-- Apply on system launch in "system" view and game list in "basic"/"detailed"/"grid" views -->
+		<sound name="launch">
+			<path>./art/launch.wav</path>
+		</sound>
+		<!-- No effect in "system" view -->
+		<sound name="back">
+			<path>./art/back.wav</path>
+		</sound>
+	</view>
 
 </theme>
